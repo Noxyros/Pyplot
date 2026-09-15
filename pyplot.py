@@ -1,17 +1,9 @@
-import os.path
-import webbrowser
+import random
 import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib.font_manager as fm
-import random, math
 import pandas as pd
 import plotly.express as px
 from plotly import graph_objects
-from plotly.graph_objs import contour
-from skimage.color.rgb_colors import limegreen
-
-from pygments import highlight
-from rich import color
 
 # # Ugly ass hell
 # plt.style.use('Solarize_Light2')
